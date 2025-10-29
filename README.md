@@ -33,7 +33,6 @@ Le modèle est construit à l’aide de **TensorFlow/Keras** avec l’architectu
 
 Flatten(input_shape=(28, 28))
 Dense(128, activation='relu')
-Dense(64, activation='relu')
 Dense(10, activation='softmax')
 
 
@@ -67,3 +66,4 @@ Les images ont été **normalisées (valeurs /255)** afin d’accélérer la con
   <p>👨‍💻 Projet réalisé par <strong><a href="https://github.com/OclaZ">OclaZ</a></strong> | Simplon Maghreb</p>
 
 </div>
+
